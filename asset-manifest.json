@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/creative-agecy-template-clone/static/css/main.073c9b0a.css",
+    "main.js": "/creative-agecy-template-clone/static/js/main.21a4bd8a.js",
+    "static/js/787.73b886c1.chunk.js": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js",
+    "index.html": "/creative-agecy-template-clone/index.html",
+    "main.073c9b0a.css.map": "/creative-agecy-template-clone/static/css/main.073c9b0a.css.map",
+    "main.21a4bd8a.js.map": "/creative-agecy-template-clone/static/js/main.21a4bd8a.js.map",
+    "787.73b886c1.chunk.js.map": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.21a4bd8a.js"
+  ]
+}
