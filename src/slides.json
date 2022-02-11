@@ -1,0 +1,26 @@
+{
+    "slideFirst": {
+      "img": "https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/5527a395e02754bb57746389_slider1.jpg",
+      "h1": {
+        "first":"We can change",
+        "last":"your digital world"
+      },
+      "h4": "Bold enough to blow a hole in your next marketing campaign."
+    },
+    "slideSecond": {
+      "img": "https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55299d1b0108cf394df61d5a_sheep.jpeg",
+      "h1":{
+        "first":"You need",
+        "last":"a good partner"
+      },
+      "h4": "Let us help you realise your true potential"
+    },
+    "slideThird": {
+      "img": "https://daks2k3a4ib2z.cloudfront.net/5527a015715879bc5767ece2/55299e51264213136f7d6a43_hoop.jpg",
+      "h1":{
+        "first":"Shoot for",
+        "last":"the hoop!"
+      },
+      "h4": "Aiming low is not an option for us"
+    }
+  }

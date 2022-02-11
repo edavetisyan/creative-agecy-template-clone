@@ -1,0 +1,20 @@
+.header {
+  height: 100%;
+  padding: 20px;
+  min-height: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  opacity: 1;
+  -webkit-transition: opacity 750ms ease 0s;
+  transition: opacity 750ms ease 0s;
+}
+/*# sourceMappingURL=Header.css.map */

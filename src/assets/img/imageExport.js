@@ -1,0 +1,6 @@
+export const desk1 = require('./desk1.jpeg')
+export const desk2 = require('./desk2.jpeg')
+export const desk3 = require('./desk3.jpeg')
+export const hoop = require('./hoop.jpg')
+export const sheep = require('./sheep.jpeg')
+export const slider1 = require('./slider1.jpg')
