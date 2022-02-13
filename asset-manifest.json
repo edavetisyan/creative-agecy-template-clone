@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/creative-agecy-template-clone/static/css/main.fc6a455f.css",
-    "main.js": "/creative-agecy-template-clone/static/js/main.f44fda13.js",
+    "main.js": "/creative-agecy-template-clone/static/js/main.cf03ae17.js",
     "static/js/787.73b886c1.chunk.js": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js",
     "static/media/Vollkorn-Regular.ttf": "/creative-agecy-template-clone/static/media/Vollkorn-Regular.deb2c95db3219f804083.ttf",
     "static/media/_hipster-white.png": "/creative-agecy-template-clone/static/media/5527f403715879bc5767fce1_hipster-white.9f37b4c9902ef09038e1.png",
     "index.html": "/creative-agecy-template-clone/index.html",
     "main.fc6a455f.css.map": "/creative-agecy-template-clone/static/css/main.fc6a455f.css.map",
-    "main.f44fda13.js.map": "/creative-agecy-template-clone/static/js/main.f44fda13.js.map",
+    "main.cf03ae17.js.map": "/creative-agecy-template-clone/static/js/main.cf03ae17.js.map",
     "787.73b886c1.chunk.js.map": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc6a455f.css",
-    "static/js/main.f44fda13.js"
+    "static/js/main.cf03ae17.js"
   ]
 }
