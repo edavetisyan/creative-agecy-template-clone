@@ -19,17 +19,4 @@
 .nav-container .h-navbar {
   width: 100%;
 }
-
-.nav-container .h-navbar .nav-link {
-  padding-top: 13px;
-  padding-right: 35px;
-  padding-left: 35px;
-  float: none;
-  font-family: Montserrat, sans-serif;
-  color: white;
-  font-size: 13px;
-  letter-spacing: -1px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
 /*# sourceMappingURL=Navbar.css.map */

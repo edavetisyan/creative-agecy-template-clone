@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Navbar.css";
 import logo from "../../assets/img/5527f403715879bc5767fce1_hipster-white.png";
+import NavLink from "../NavLink/NavLink.js";
 
 function Navbar() {
   const [img, setImg] = useState(logo);
@@ -10,12 +11,11 @@ function Navbar() {
           <img src={img} alt="hipster-white" className="logo-name" />
         </a>
       <nav className="h-navbar">
-       
-        <a className="nav-link" href="home">home</a>
-        <a className="nav-link" href="about">about</a>
-        <a className="nav-link" href="services">services</a>
-        <a className="nav-link" href="portfolio">portfolio</a>
-        <a className="nav-link" href="contact">contact</a>
+       <NavLink linkName = "home" />
+       <NavLink linkName = "about" />
+       <NavLink linkName = "services" />
+       <NavLink linkName = "portfolio" />
+       <NavLink linkName = "contact" />
       </nav>
     </div>
   );

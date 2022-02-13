@@ -1,4 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import SlideContainer from "../SlideContainer/SlideContainer.js";
 import React, { useEffect, useRef, useState } from "react";
 import _slides from "../../slides.json";
 import "./Slider.css";
@@ -67,20 +68,12 @@ function Slider() {
         >
           <FontAwesomeIcon className="leftArrow" icon={faChevronLeft} />
         </div>
-
         <div
           className="slide"
           data-active="active"
           style={{ backgroundImage: `url(${imgArray[state].img})` }}
         >
-          <div className="slide-container">
-            <h1>
-              {imgArray[state].h1.first}
-              <br />
-              {imgArray[state].h1.last}
-            </h1>
-            <h4> {imgArray[state].h4} </h4>
-          </div>
+          <SlideContainer current={state} slides={imgArray} />
         </div>
         <div
           className="arrow-container right-arrow-container"
