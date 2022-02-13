@@ -1,11 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import _slides from "../../slides.json";
 import "./Slider.css";
 import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+
 function Slider() {
   // json slides to object
   let slides = JSON.parse(JSON.stringify(_slides));
@@ -18,13 +19,43 @@ function Slider() {
   // set state for slide
   let [state, setState] = useState(0);
 
-  // next slide function
-  function nextSlide(e) {
-    state >= imgArray.length - 1 ? setState(state = 0) : setState(prev => prev+1);
+  //slide animation on load
+
+  const timeoutRef = useRef(null);
+  const delay = 5500;
+  function resetTimeout() {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+    }
   }
+
+  useEffect(() => {
+    resetTimeout();
+    timeoutRef.current = setTimeout(
+      () =>
+        setState((prevIndex) =>
+          prevIndex < imgArray.length - 1 ? prevIndex + 1 : 0
+        ),
+      delay
+    );
+
+    return () => {
+      resetTimeout();
+    };
+  }, [state]);
+
+  // next slide function
+  function nextSlide() {
+    state >= imgArray.length - 1
+      ? setState((state = 0))
+      : setState((prev) => prev + 1);
+  }
+
   // previous slide function
   function prevSlide() {
-    state <= 0 ? setState(state =imgArray.length - 1) : setState(prev => prev-1);
+    state <= 0
+      ? setState((state = imgArray.length - 1))
+      : setState((prev) => prev - 1);
   }
 
   return (
