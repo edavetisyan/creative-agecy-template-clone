@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../assets/img/5527f403715879bc5767fce1_hipster-white.png";
+import logo from "../../../assets/img/5527f403715879bc5767fce1_hipster-white.png";
 import NavLink from "../NavLink/NavLink";
 
 function Navbar() {

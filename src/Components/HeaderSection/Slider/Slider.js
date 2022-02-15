@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useRef, useState } from "react";
-import _slides from "../../slides.json";
+import _slides from "../../../slides.json";
 import "./Slider.css";
 import {
   faChevronLeft,

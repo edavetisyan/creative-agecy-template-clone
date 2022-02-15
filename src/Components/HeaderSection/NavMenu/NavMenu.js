@@ -1,7 +1,7 @@
 import React from "react";
 import NavLink from "../NavLink/NavLink.js";
 import "./NavMenu.css";
-import blackLogo from "../../assets/img/blacklogo.png";
+import blackLogo from "../../../assets/img/blacklogo.png";
 function NavMenu({ open,setOpen }) {
   return (
     <nav

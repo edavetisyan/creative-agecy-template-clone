@@ -13,4 +13,5 @@ body{
 }
 html{
   scroll-behavior:smooth ;
+  animation-delay: 2s;
 }
