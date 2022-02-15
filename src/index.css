@@ -9,7 +9,8 @@ body{
     color: #333;
     font-size: 14px;
     line-height: 20px;
+    
 }
 html{
-  scroll-behavior: smooth;
+  scroll-behavior:smooth ;
 }

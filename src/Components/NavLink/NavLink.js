@@ -2,8 +2,7 @@ import React from "react";
 import './NavLink.css'
 
 function NavLink({linkName}) {
-  return (
-    
+  return (    
     <a className="nav-link" href={"#"+linkName}>
       {linkName}
     </a>
