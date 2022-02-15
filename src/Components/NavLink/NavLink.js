@@ -3,7 +3,8 @@ import './NavLink.css'
 
 function NavLink({linkName}) {
   return (
-    <a className="nav-link" href={linkName}>
+    
+    <a className="nav-link" href={"#"+linkName}>
       {linkName}
     </a>
   );

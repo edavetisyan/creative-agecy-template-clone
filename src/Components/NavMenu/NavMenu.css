@@ -1,0 +1,52 @@
+.navMenu-navbar {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding-top: 100px;
+  height: 5000px;
+  z-index: 80;
+  position: absolute;
+  margin-top: 0px;
+  -webkit-transition: all 1000ms ease;
+  transition: all 1000ms ease;
+}
+
+@media (min-width: 990px) {
+  .navMenu-navbar {
+    display: none;
+  }
+}
+
+.navMenu-navbar a {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 13px 35px 20px;
+}
+
+.navMenu-navbar .nav-link {
+  display: block;
+  z-index: 80;
+  color: #333;
+  font-size: 13px;
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.navMenu-navbar .nav-link:hover {
+  color: #e3e3e3;
+}
+
+.navMenu-navbar .blackLogo {
+  width: 100px;
+}
+/*# sourceMappingURL=NavMenu.css.map */

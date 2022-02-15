@@ -1,17 +1,18 @@
-.logo-name {
-  height: 60px;
-  margin-right: 70px;
-}
-.nav-container {
-  width: 85%;
-  position: absolute;
-  z-index: 20;
-  display: flex;
-  align-items: center;
-  top: 35px;
 
-  .h-navbar {
-    width: 100%;
-    
+.logo-name {
+    height: 60px;
+    margin-right: 70px;
   }
-}
+  .nav-container {
+    width: 85%;
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    top: 35px;
+  
+    .h-navbar {
+      width: 100%;
+      
+    }
+  }

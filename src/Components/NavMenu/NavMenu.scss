@@ -1,0 +1,41 @@
+.navMenu-navbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-top: 100px;
+    height: 5000px;
+    z-index: 80;
+    position: absolute;
+    margin-top: 0px;
+    transition: all 1000ms ease;
+    // right: -100%;
+    // display: none;
+    @media (min-width: 990px) {
+        display: none;
+
+    }
+    a{
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 13px 35px 20px ;
+    }
+    .nav-link{
+        display: block;
+        z-index: 80;
+        color: #333;
+        font-size: 13px;
+    transition: all 500ms ease;
+
+        &:hover{
+        color: #e3e3e3;
+
+        }
+    }
+    .blackLogo{
+        width: 100px;
+        }
+        
+}

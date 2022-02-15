@@ -1,71 +1,71 @@
 @font-face {
-  font-family: Volkorn;
-  src: url("../../assets/fonts/vollkorn/Vollkorn-Regular.ttf");
-}
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
-
-
-
-.slide {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: 50% 0px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  opacity: 0;
-  transition:all 600ms ease;
-
-  &[data-active="active"]{
-    opacity: 1;
+    font-family: Volkorn;
+    src: url("../../assets/fonts/vollkorn/Vollkorn-Regular.ttf");
   }
-}
-.slider-wrapper {
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-}
-
-
-.slide-container {
-  width: 75%;
-  margin-bottom: 275px;
-  margin-right: auto;
-  margin-left: auto;
-  text-align: right;
-}
-.arrow-container{
-    position: absolute;
-    width: 80px;
+  @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,800;0,900;1,500;1,600;1,700;1,800;1,900&display=swap");
+  
+  
+  
+  .slide {
+    width: 100%;
     height: 100%;
+    background-size: cover;
+    background-position: 50% 0px;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    cursor: pointer;
-    @media (max-width: 990px) {
-      display: none;
+    opacity: 0;
+    transition:all 600ms ease;
+  
+    &[data-active="active"]{
+      opacity: 1;
+    }
   }
-}
-.right-arrow-container{
+  .slider-wrapper {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+  }
+  
+  
+  .slide-container {
+    width: 75%;
+    margin-bottom: 275px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: right;
+  }
+  .arrow-container{
+      position: absolute;
+      width: 80px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      @media (max-width: 990px) {
+        display: none;
+    }
+  }
+  .right-arrow-container{
+      right: 0px;
+  }
+  
+  .leftArrow,
+  .rightArrow {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    color: aliceblue;
+    cursor: pointer;
+    // z-index: 50;
+    transition: all 500ms ease;
+    // &:hover{
+    //     background-color: rgba(51, 51, 51, 0.49);
+    // }
+  }
+  .rightArrow {
     right: 0px;
-}
-
-.leftArrow,
-.rightArrow {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  color: aliceblue;
-  cursor: pointer;
-  // z-index: 50;
-  transition: all 500ms ease;
-  // &:hover{
-  //     background-color: rgba(51, 51, 51, 0.49);
-  // }
-}
-.rightArrow {
-  right: 0px;
-}
-.leftArrow {
-  left: 0px;
-}
+  }
+  .leftArrow {
+    left: 0px;
+  }

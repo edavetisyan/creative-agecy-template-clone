@@ -1,5 +1,4 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import SlideContainer from "../SlideContainer/SlideContainer.js";
 import React, { useEffect, useRef, useState } from "react";
 import _slides from "../../slides.json";
 import "./Slider.css";
@@ -7,6 +6,7 @@ import {
   faChevronLeft,
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons";
+import SlideContainer from "../SlideContainer/SlideContainer.js";
 
 function Slider() {
   // json slides to object

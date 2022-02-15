@@ -16,5 +16,6 @@
   opacity: 1;
   -webkit-transition: opacity 750ms ease 0s;
   transition: opacity 750ms ease 0s;
+  overflow: hidden;
 }
 /*# sourceMappingURL=Header.css.map */
