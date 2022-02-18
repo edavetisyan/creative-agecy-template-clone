@@ -1,0 +1,17 @@
+.AboutTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.AboutTop .photoBox-cont {
+  padding-right: 10px;
+}
+
+.AboutTop .grayBox-cont {
+  padding-left: 10px;
+}
+/*# sourceMappingURL=AboutTop.css.map */

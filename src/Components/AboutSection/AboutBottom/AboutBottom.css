@@ -1,0 +1,17 @@
+.AboutBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.AboutBottom .photoBox-cont {
+  padding-left: 10px;
+}
+
+.AboutBottom .grayBox-cont {
+  padding-right: 10px;
+}
+/*# sourceMappingURL=AboutBottom.css.map */

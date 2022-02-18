@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,aAAa;CAOjC;;AATD,AAGI,YAHQ,CAGR,cAAc,CAAA;EACV,YAAY,EAAE,IAAI;CACrB;;AALL,AAMI,YANQ,CAMR,aAAa,CAAA;EACT,aAAa,EAAE,IAAI;CACtB",
+    "sources": [
+        "AboutBottom.scss"
+    ],
+    "names": [],
+    "file": "AboutBottom.css"
+}
