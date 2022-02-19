@@ -4,7 +4,7 @@ import ServicesTop from "../ServicesTop/ServicesTop";
 import "./Services.css";
 function Services() {
   return (
-    <div className="Services">
+    <div className="Services" id="services">
       <ServicesTop />
       <ServicesBottom/>
     </div>
