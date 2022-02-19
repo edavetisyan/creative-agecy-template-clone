@@ -5,7 +5,7 @@ function GrayBox(props) {
   useEffect(() => {
     let options = { threshold: [0.5] };
     let observer = new IntersectionObserver(onEntry, options);
-    let elements = document.querySelectorAll(".animatedTitle");
+    let elements = document.querySelectorAll(".grayBoxanimatedTitle");
     for (let elm of elements) {
       observer.observe(elm);
     }
@@ -15,7 +15,7 @@ function GrayBox(props) {
     <div className="grayBox-cont">
       <div className="grayBox">
         <h2
-          className="h2 animatedTitle"
+          className="h2 grayBoxanimatedTitle"
           style={{
             transform: `translateX(0px) translateY(80px)`,
             transition: `opacity 750ms ease 0s, transform 500ms ease 0s`,
@@ -25,7 +25,7 @@ function GrayBox(props) {
           {props.title}
         </h2>
         <h5
-          className="h5 animatedTitle"
+          className="h5 grayBoxanimatedTitle"
           style={{
             opacity: 0,
             transform: `translateX(-50px) translateY(0px)`,

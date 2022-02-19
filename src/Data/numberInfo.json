@@ -1,0 +1,22 @@
+{
+    "coffe":{
+        "num": 342,
+        "text": "Cups of coffee"
+
+    },
+    "bicycle":{
+        "num": 756,
+        "text": "Bicycle kilometres"
+
+    },
+    "brainstorm":{
+        "num": 419,
+        "text": "Brainstorm sessions"
+
+    },
+    "video":{
+        "num": 284,
+        "text": "Video hours"
+
+    }
+}
