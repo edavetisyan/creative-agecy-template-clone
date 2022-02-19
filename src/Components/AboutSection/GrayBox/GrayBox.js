@@ -1,22 +1,8 @@
 import React, { useEffect } from "react";
+import onEntry from "../../onEntry";
 import "./GrayBox.css";
 function GrayBox(props) {
   useEffect(() => {
-    function onEntry(entry) {
-      entry.forEach((change) => {
-        if (change.isIntersecting) {
-          if (change.target.localName === "h5") {
-            setTimeout(() => {
-              change.target.style.opacity = 1;
-              change.target.style.transform = "translateX(0px) translateY(0px)";
-            }, 750);
-          } else {
-            change.target.style.opacity = 1;
-            change.target.style.transform = "translateX(0px) translateY(0px)";
-          }
-        }
-      });
-    }
     let options = { threshold: [0.5] };
     let observer = new IntersectionObserver(onEntry, options);
     let elements = document.querySelectorAll(".animatedTitle");
