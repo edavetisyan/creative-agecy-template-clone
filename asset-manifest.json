@@ -1,19 +1,17 @@
 {
   "files": {
-    "main.css": "/creative-agecy-template-clone/static/css/main.81b6ea89.css",
-    "main.js": "/creative-agecy-template-clone/static/js/main.2b8044b5.js",
+    "main.css": "/creative-agecy-template-clone/static/css/main.d8e32044.css",
+    "main.js": "/creative-agecy-template-clone/static/js/main.9c9c6fd7.js",
     "static/js/787.73b886c1.chunk.js": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js",
-    "static/media/Vollkorn-Medium.ttf": "/creative-agecy-template-clone/static/media/Vollkorn-Medium.23aa8219c3965d8f121d.ttf",
-    "static/media/Vollkorn-Regular.ttf": "/creative-agecy-template-clone/static/media/Vollkorn-Regular.deb2c95db3219f804083.ttf",
     "static/media/_hipster-white.png": "/creative-agecy-template-clone/static/media/5527f403715879bc5767fce1_hipster-white.9f37b4c9902ef09038e1.png",
     "static/media/blacklogo.png": "/creative-agecy-template-clone/static/media/blacklogo.5e30b735a72b18e724a6.png",
     "index.html": "/creative-agecy-template-clone/index.html",
-    "main.81b6ea89.css.map": "/creative-agecy-template-clone/static/css/main.81b6ea89.css.map",
-    "main.2b8044b5.js.map": "/creative-agecy-template-clone/static/js/main.2b8044b5.js.map",
+    "main.d8e32044.css.map": "/creative-agecy-template-clone/static/css/main.d8e32044.css.map",
+    "main.9c9c6fd7.js.map": "/creative-agecy-template-clone/static/js/main.9c9c6fd7.js.map",
     "787.73b886c1.chunk.js.map": "/creative-agecy-template-clone/static/js/787.73b886c1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.81b6ea89.css",
-    "static/js/main.2b8044b5.js"
+    "static/css/main.d8e32044.css",
+    "static/js/main.9c9c6fd7.js"
   ]
 }
