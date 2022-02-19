@@ -1,0 +1,88 @@
+.ServicesBottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: bottom 20px;
+}
+
+.ServicesBottom .ServiceCard-cont {
+  width: 33%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.ServicesBottom .ServiceCard-cont .ServiceCard {
+  height: auto;
+  min-height: 400px;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 50px;
+  background-color: whitesmoke;
+  -webkit-transition: all 750ms ease;
+  transition: all 750ms ease;
+  text-align: center;
+}
+
+.ServicesBottom .ServiceCard-cont .ServiceCard img {
+  width: 125px;
+}
+
+.ServicesBottom .ServiceCard-cont .ServiceCard h2 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-family: Montserrat, sans-serif;
+  font-size: 42px;
+  line-height: 40px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  text-transform: capitalize;
+}
+
+.ServicesBottom .ServiceCard-cont .ServiceCard p {
+  margin-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.ServicesBottom .first {
+  padding-left: 0px;
+}
+
+.ServicesBottom .first :nth-child(1):hover {
+  background-color: #e3e1d3;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.ServicesBottom .center :nth-child(1):hover {
+  background-color: #e0cece;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.ServicesBottom .last {
+  padding-right: 0px;
+}
+
+.ServicesBottom .last :nth-child(1):hover {
+  background-color: #d1d7e0;
+  background-image: none;
+  background-position: 0% 0%;
+  background-size: auto;
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+/*# sourceMappingURL=ServicesBottom.css.map */

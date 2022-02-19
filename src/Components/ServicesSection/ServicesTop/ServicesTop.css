@@ -1,0 +1,14 @@
+.ServicesTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.ServicesTop .photoBox-cont {
+  padding-right: 10px;
+}
+
+.ServicesTop .grayBox-cont {
+  padding-left: 10px;
+}
+/*# sourceMappingURL=ServicesTop.css.map */

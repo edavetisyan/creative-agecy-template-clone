@@ -1,0 +1,84 @@
+.ServicesBottom {
+  display: flex;
+  justify-content: space-between;
+  margin: bottom 20px;
+
+  .ServiceCard-cont {
+    width: 33%;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    .ServiceCard {
+      height: auto;
+      min-height: 400px;
+      padding-top: 40px;
+      padding-right: 50px;
+      padding-left: 50px;
+      background-color: whitesmoke;
+      -webkit-transition: all 750ms ease;
+      transition: all 750ms ease;
+      text-align: center;
+
+      img {
+        width: 125px;
+      }
+      h2 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-family: Montserrat, sans-serif;
+        font-size: 42px;
+        line-height: 40px;
+        font-weight: 700;
+        letter-spacing: -3px;
+        text-transform: capitalize;
+      }
+      p {
+        margin-bottom: 5px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: #5c5c5c;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+      }
+    }
+  }
+  .first {
+    padding-left: 0px;
+    :nth-child(1) {
+      &:hover {
+        background-color: #e3e1d3;
+        background-image: none;
+        background-position: 0% 0%;
+        background-size: auto;
+        background-repeat: repeat;
+        background-attachment: scroll;
+      }
+    }
+  }
+  .center {
+    :nth-child(1) {
+      &:hover {
+        background-color: #e0cece;
+        background-image: none;
+        background-position: 0% 0%;
+        background-size: auto;
+        background-repeat: repeat;
+        background-attachment: scroll;
+      }
+    }
+  }
+  .last {
+    padding-right: 0px;
+    :nth-child(1) {
+      &:hover {
+        background-color: #d1d7e0;
+        background-image: none;
+        background-position: 0% 0%;
+        background-size: auto;
+        background-repeat: repeat;
+        background-attachment: scroll;
+      }
+    }
+  }
+}
