@@ -43,7 +43,7 @@ function Slider() {
     return () => {
       resetTimeout();
     };
-  }, [state]);
+  }, [state, imgArray.length]);
 
   // next slide function
   function nextSlide() {

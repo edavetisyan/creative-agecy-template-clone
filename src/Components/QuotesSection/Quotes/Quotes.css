@@ -1,0 +1,30 @@
+.Quotes {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.Quotes .quoteText {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #333;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -1.5px;
+  opacity: 0;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.Quotes .quoteText[data-active="active"] {
+  opacity: 1;
+}
+
+.Quotes p {
+  margin-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+/*# sourceMappingURL=Quotes.css.map */
