@@ -1,0 +1,33 @@
+.Portfolio {
+  width: 100%;
+  padding: 0px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  .grayBox-cont {
+    width: 25%;
+    position: relative;
+    float: left;
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    .grayBox {
+      background-color: white;
+      min-height: 1px;
+      padding: 0px 10px;
+      text-align: left;
+      p {
+        margin-bottom: 5px;
+        font-family: "Source Sans Pro", sans-serif;
+        color: #5c5c5c;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        letter-spacing: -0.5px;
+      }
+    }
+    .gray-btn {
+      display: none;
+    }
+  }
+}

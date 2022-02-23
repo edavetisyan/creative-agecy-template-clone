@@ -1,0 +1,11 @@
+.PortfolioItem {
+  width: 25%;
+  padding: 0px 10px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.PortfolioItem img {
+  width: 100%;
+}
+/*# sourceMappingURL=PortfolioItem.css.map */

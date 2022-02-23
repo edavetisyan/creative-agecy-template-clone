@@ -1,0 +1,41 @@
+.Portfolio {
+  width: 100%;
+  padding: 0px 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  display: flex;
+}
+
+.Portfolio .grayBox-cont {
+  width: 25%;
+  position: relative;
+  float: left;
+  min-height: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.Portfolio .grayBox-cont .grayBox {
+  background-color: white;
+  min-height: 1px;
+  padding: 0px 10px;
+  text-align: left;
+}
+
+.Portfolio .grayBox-cont .grayBox p {
+  margin-bottom: 5px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #5c5c5c;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
+}
+
+.Portfolio .grayBox-cont .gray-btn {
+  display: none;
+}
+/*# sourceMappingURL=Portfolio.css.map */
