@@ -104,4 +104,41 @@
 .Footer .footer-content .columns .footer-text span {
   font-style: 14px;
 }
+
+.Footer .dev-info {
+  padding: 20px 50px;
+  background-color: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Footer .dev-info .dev-container {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Footer .dev-info .dev-container a {
+  font-style: 15px;
+  color: white;
+  line-height: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.Footer .dev-info .git-logo {
+  fill: #FFFFFF;
+}
 /*# sourceMappingURL=Footer.css.map */
