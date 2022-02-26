@@ -2,8 +2,9 @@ function onEntry(entry) {
   entry.forEach((change) => {
     if (change.isIntersecting) {
       if (
-        change.target.localName === "h5" &&
-        change.target.parentNode.className === "grayBox"
+        change.target.localName === "h5" 
+        // &&
+        // change.target.parentNode.className === "grayBox"
       ) {
         setTimeout(() => {
           change.target.style.opacity = 1;

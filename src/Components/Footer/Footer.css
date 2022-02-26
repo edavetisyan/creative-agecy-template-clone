@@ -1,0 +1,107 @@
+.Footer {
+  position: relative;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.Footer .footer-content {
+  padding: 50px;
+  background-color: #242424;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.Footer .footer-content .columns {
+  width: 25%;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Footer .footer-content .columns h6 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: Montserrat, sans-serif;
+  color: #7d7d7d;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.Footer .footer-content .columns .nav-container {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  top: 0px;
+  height: 100%;
+}
+
+.Footer .footer-content .columns .nav-container .h-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  padding-bottom: 50px;
+  padding-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.Footer .footer-content .columns .nav-container .h-navbar .nav-link {
+  padding: 0px;
+  font-style: 14px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Footer .footer-content .columns .nav-container .h-navbar a[href="#home"] {
+  display: none;
+}
+
+.Footer .footer-content .columns .footer-logo {
+  width: 80px;
+}
+
+.Footer .footer-content .columns .logo {
+  display: none;
+}
+
+.Footer .footer-content .columns .footer-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-style: 15px;
+  color: white;
+  line-height: 28px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Footer .footer-content .columns .footer-text span {
+  font-style: 14px;
+}
+/*# sourceMappingURL=Footer.css.map */
