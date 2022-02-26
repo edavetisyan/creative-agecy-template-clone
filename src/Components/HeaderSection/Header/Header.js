@@ -8,12 +8,12 @@ function Header() {
   const [open, setOpen] = useState(false)
 
   return (
-    <div className="header">
+    <section className="header">
       <HamburgerMenu open={open} setOpen={setOpen} />
       <NavMenu className="burgerNav" open={open} setOpen={setOpen} />
       <Navbar />
       <Slider />
-    </div>
+    </section>
   );
 }
 

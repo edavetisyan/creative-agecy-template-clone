@@ -4,10 +4,10 @@ import ServicesTop from "../ServicesTop/ServicesTop";
 import "./Services.css";
 function Services() {
   return (
-    <div className="Services" id="services">
+    <section className="Services" id="services">
       <ServicesTop />
       <ServicesBottom/>
-    </div>
+    </section>
   );
 }
 

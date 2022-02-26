@@ -13,12 +13,12 @@ function BreakNumbers() {
         }
       }, []);
   return (
-    <div className='BreakNumbers'>
+    <section className='BreakNumbers'>
         <InfoNumbers number={_numInfo.coffe.num} subtitle={_numInfo.coffe.text} />
         <InfoNumbers number={_numInfo.bicycle.num} subtitle={_numInfo.bicycle.text} />
         <InfoNumbers number={_numInfo.brainstorm.num} subtitle={_numInfo.brainstorm.text} />
         <InfoNumbers number={_numInfo.video.num} subtitle={_numInfo.video.text} />
-    </div>
+    </section>
   ) 
 }
 

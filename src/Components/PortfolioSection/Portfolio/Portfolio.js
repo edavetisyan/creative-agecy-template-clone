@@ -18,10 +18,8 @@ function Portfolio() {
     paragraph:
       "Focus infographic venture business model canvas gamification ecosystem. Business plan gamification user experience low hanging fruit twitter. Metrics research & development market paradigm shift growth hacking.",
   };
-  //   const [img, setImg] = useState(imgs);
-  const [current, setCurrent] = useState(0);
   return (
-    <div id="portfolio" className="Portfolio">
+    <section id="portfolio" className="Portfolio">
       <GrayBox title={boxTitle.h2} subTitle = {boxTitle.sub} paragraph={boxTitle.paragraph} />
       <PortfolioItem img={imgs[0]} />
       <PortfolioItem img={imgs[1]} />
@@ -30,7 +28,7 @@ function Portfolio() {
       <PortfolioItem img={imgs[4]} />
       <PortfolioItem img={imgs[5]} />
       <PortfolioItem img={imgs[6]} />
-    </div>
+    </section>
   );
 }
 

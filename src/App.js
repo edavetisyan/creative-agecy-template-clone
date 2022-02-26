@@ -5,6 +5,7 @@ import BreakNumbers from "./Components/NumbersSection/BreakNumbers";
 import Services from "./Components/ServicesSection/Services/Services";
 import Quotes from "./Components/QuotesSection/Quotes/Quotes";
 import Portfolio from "./Components/PortfolioSection/Portfolio/Portfolio";
+import Contact from "./Components/ContactSection/Contact/Contact";
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
       <Services />
       <Quotes />
       <Portfolio/>
+      <Contact/>
     </div>
   );
 }

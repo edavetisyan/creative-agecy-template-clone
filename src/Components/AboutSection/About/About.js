@@ -4,10 +4,10 @@ import AboutTop from "../AboutTop/AboutTop";
 import "./About.css";
 function About() {
   return (
-    <div id="about">
+    <section id="about">
       <AboutTop />
       <AboutBottom />
-    </div>
+    </section>
   );
 }
 

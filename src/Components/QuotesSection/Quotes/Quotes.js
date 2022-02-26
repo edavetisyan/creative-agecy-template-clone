@@ -35,14 +35,14 @@ function Quotes() {
   }, [curnum, quote.length]);
 
   return (
-    <div className="Quotes">
+    <section className="Quotes">
       <TitleSection />
       <p className="quoteText" data-active="active">
         <em>{quote[curnum].em}</em>
         <br />
         {quote[curnum].par}
       </p>
-    </div>
+    </section>
   );
 }
 
