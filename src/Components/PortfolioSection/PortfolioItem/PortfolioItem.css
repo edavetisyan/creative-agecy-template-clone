@@ -2,10 +2,57 @@
   width: 25%;
   padding: 0px 10px;
   overflow: hidden;
+  position: relative;
   cursor: pointer;
+}
+
+.PortfolioItem .hover-inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding-right: 20px;
+  top: 0px;
+}
+
+.PortfolioItem .hover-inner .color {
+  -webkit-transition: all 500ms ease;
+  transition: all 500ms ease;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+
+.PortfolioItem .hover-inner .color .inner-portfolio {
+  height: 100%;
+  width: 100%;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.PortfolioItem .hover-inner .color .inner-portfolio p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 .PortfolioItem img {
   width: 100%;
+  height: 100%;
 }
 /*# sourceMappingURL=PortfolioItem.css.map */

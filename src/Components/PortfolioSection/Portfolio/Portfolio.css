@@ -7,6 +7,7 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   display: flex;
+  row-gap: 20px;
 }
 
 .Portfolio .grayBox-cont {
