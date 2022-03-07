@@ -36,6 +36,12 @@
   letter-spacing: -0.5px;
 }
 
+@media (max-width: 990px) {
+  .Portfolio .grayBox-cont .grayBox p {
+    display: none;
+  }
+}
+
 .Portfolio .grayBox-cont .gray-btn {
   display: none;
 }
