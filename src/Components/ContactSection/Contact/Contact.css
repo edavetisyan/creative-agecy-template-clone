@@ -77,9 +77,15 @@
   height: 54px;
 }
 
+@media (max-width: 991px) {
+  .Contact .contact-form form .submit-btn {
+    margin-top: 15px;
+  }
+}
+
 .Contact .contact-form form .submit-btn:hover {
   border: 2px solid white;
-  background-color: #333;
+  background-color: #878787;
   color: white;
 }
 

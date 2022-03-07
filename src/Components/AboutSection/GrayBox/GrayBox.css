@@ -16,6 +16,16 @@
   width: 100%;
 }
 
+@media (max-width: 991px) {
+  .grayBox-cont .grayBox {
+    height: auto;
+    min-height: 400px;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
 .grayBox-cont .grayBox h2 {
   margin-top: 5px;
   margin-bottom: 5px;
@@ -28,6 +38,12 @@
   white-space: pre;
 }
 
+@media (max-width: 991px) {
+  .grayBox-cont .grayBox h2 {
+    font-size: 32px;
+  }
+}
+
 .grayBox-cont .grayBox h5 {
   margin-top: 5px;
   margin-bottom: 30px;
@@ -38,6 +54,12 @@
   font-weight: 400;
 }
 
+@media (max-width: 991px) {
+  .grayBox-cont .grayBox h5 {
+    font-size: 15px;
+  }
+}
+
 .grayBox-cont .grayBox p {
   margin-bottom: 5px;
   font-family: "Source Sans Pro", sans-serif;
@@ -46,6 +68,12 @@
   line-height: 22px;
   font-weight: 400;
   letter-spacing: -0.5px;
+}
+
+@media (max-width: 991px) {
+  .grayBox-cont .grayBox p {
+    font-size: 13px;
+  }
 }
 
 .grayBox-cont .grayBox .gray-btn {
@@ -63,5 +91,11 @@
   text-align: center;
   letter-spacing: -1px;
   text-decoration: none;
+}
+
+.grayBox-cont .grayBox .gray-btn:hover {
+  border: 2px solid white;
+  background-color: #878787;
+  color: white;
 }
 /*# sourceMappingURL=GrayBox.css.map */

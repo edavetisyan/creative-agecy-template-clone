@@ -10,7 +10,14 @@
     background-color: whitesmoke;
     text-align: center;
     width: 100%;
-    
+    @media (max-width: 991px) {
+      height: auto;
+      min-height: 400px;
+      padding-top: 30px;
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+
     h2 {
       margin-top: 5px;
       margin-bottom: 5px;
@@ -21,6 +28,9 @@
       letter-spacing: -3px;
       color: #333;
       white-space: pre;
+      @media (max-width: 991px) {
+      font-size: 32px;
+      }
     }
     h5 {
       margin-top: 5px;
@@ -30,7 +40,9 @@
       line-height: 22px;
       font-style: italic;
       font-weight: 400;
-
+      @media (max-width: 991px) {
+      font-size: 15px;
+      }
     }
     p {
       margin-bottom: 5px;
@@ -40,6 +52,9 @@
       line-height: 22px;
       font-weight: 400;
       letter-spacing: -0.5px;
+      @media (max-width: 991px) {
+      font-size: 13px;
+      }
     }
     .gray-btn {
       display: inline-block;
@@ -56,6 +71,11 @@
       text-align: center;
       letter-spacing: -1px;
       text-decoration: none;
+      &:hover {
+        border: 2px solid white;
+        background-color: #878787;
+        color: white;
+      }
     }
   }
 }

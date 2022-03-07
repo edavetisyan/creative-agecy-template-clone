@@ -11,4 +11,10 @@
   background-size: cover;
   width: 100%;
 }
+
+@media (max-width: 991px) {
+  .photoBox-cont .photoBox {
+    height: 400px;
+  }
+}
 /*# sourceMappingURL=PhotoBox.css.map */

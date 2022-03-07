@@ -3,6 +3,13 @@
   text-align: center;
 }
 
+@media (max-width: 991px) {
+  .Quotes {
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+}
+
 .Quotes .quoteText {
   font-family: "Source Sans Pro", sans-serif;
   color: #333;
@@ -11,6 +18,12 @@
   letter-spacing: -1.5px;
   -webkit-transition: all 600ms ease;
   transition: all 600ms ease;
+}
+
+@media (max-width: 991px) {
+  .Quotes .quoteText {
+    font-size: 17px;
+  }
 }
 
 .Quotes .quoteText[data-active="active"] {

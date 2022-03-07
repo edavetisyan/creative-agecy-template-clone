@@ -30,6 +30,10 @@
         flex-direction: column;
         top: 0px;
         height: 100%;
+        padding-left: 0px;
+        @media (max-width: 991px) {
+          padding-left: 0px;
+        }
         .h-navbar {
           display: flex;
           flex-direction: column;
@@ -41,7 +45,10 @@
           .nav-link {
             padding: 0px;
             font-style: 14px;
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: "Source Sans Pro", sans-serif;
+            @media (max-width: 991px) {
+              display: block;
+            }
           }
           a[href="#home"] {
             display: none;
@@ -50,6 +57,9 @@
       }
       .footer-logo {
         width: 80px;
+        @media (max-width: 991px) {
+          width: 75px;
+        }
       }
       .logo {
         display: none;
@@ -60,34 +70,34 @@
         font-style: 15px;
         color: white;
         line-height: 28px;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         span {
           font-style: 14px;
         }
       }
     }
   }
-  .dev-info{
-    padding:20px 50px;
+  .dev-info {
+    padding: 20px 50px;
     background-color: #242424;
     display: flex;
     justify-content: space-between;
-    .dev-container{
-      width: 15%;
+    .dev-container {
+      width: 200px;
       display: flex;
       align-items: center;
       justify-content: space-between;
-      a{
+      a {
         font-style: 15px;
         color: white;
         line-height: 28px;
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         text-transform: uppercase;
         text-decoration: none;
       }
     }
-    .git-logo{
-      fill: #FFFFFF;
+    .git-logo {
+      fill: #ffffff;
     }
   }
 }

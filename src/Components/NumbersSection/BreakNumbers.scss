@@ -2,6 +2,11 @@
   padding: 50px 20px;
   display: flex;
   justify-content: center;
+  @media (max-width:991px) {
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
   #InfoNumbers {
     width: 16%;
     h2 {
@@ -12,6 +17,9 @@
       line-height: 40px;
       font-weight: 700;
       letter-spacing: -3px;
+      @media (max-width:991px) {
+       font-size: 32px; 
+      }
     }
     h5 {
       margin-top: 5px;
@@ -21,6 +29,9 @@
       line-height: 22px;
       font-style: italic;
       font-weight: 400;
+      @media (max-width:991px) {
+       font-size: 15px; 
+      }
     }
   }
 }

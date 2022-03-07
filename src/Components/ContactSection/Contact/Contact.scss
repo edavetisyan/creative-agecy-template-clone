@@ -52,9 +52,13 @@
         text-decoration: none;
         width: 115px;
         height: 54px;
+        @media (max-width:991px) {
+          margin-top: 15px;
+
+        }
         &:hover {
             border: 2px solid white;
-            background-color: #333;
+            background-color: #878787;
             color: white;
         }
       }

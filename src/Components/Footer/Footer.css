@@ -48,6 +48,13 @@
           flex-direction: column;
   top: 0px;
   height: 100%;
+  padding-left: 0px;
+}
+
+@media (max-width: 991px) {
+  .Footer .footer-content .columns .nav-container {
+    padding-left: 0px;
+  }
 }
 
 .Footer .footer-content .columns .nav-container .h-navbar {
@@ -72,7 +79,13 @@
 .Footer .footer-content .columns .nav-container .h-navbar .nav-link {
   padding: 0px;
   font-style: 14px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .Footer .footer-content .columns .nav-container .h-navbar .nav-link {
+    display: block;
+  }
 }
 
 .Footer .footer-content .columns .nav-container .h-navbar a[href="#home"] {
@@ -81,6 +94,12 @@
 
 .Footer .footer-content .columns .footer-logo {
   width: 80px;
+}
+
+@media (max-width: 991px) {
+  .Footer .footer-content .columns .footer-logo {
+    width: 75px;
+  }
 }
 
 .Footer .footer-content .columns .logo {
@@ -98,7 +117,7 @@
   font-style: 15px;
   color: white;
   line-height: 28px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .Footer .footer-content .columns .footer-text span {
@@ -117,7 +136,7 @@
 }
 
 .Footer .dev-info .dev-container {
-  width: 15%;
+  width: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,12 +152,12 @@
   font-style: 15px;
   color: white;
   line-height: 28px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .Footer .dev-info .git-logo {
-  fill: #FFFFFF;
+  fill: #ffffff;
 }
 /*# sourceMappingURL=Footer.css.map */
